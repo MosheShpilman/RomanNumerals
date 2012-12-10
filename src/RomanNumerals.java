@@ -51,6 +51,9 @@ public class RomanNumerals {
 				case 2:
 						result = digitToString(digit, "X", "L", "C")+result;
 						break;
+				case 3:
+						result = digitToString(digit, "C", "D", "M")+result;
+						break;
 					
 			}
 		}
