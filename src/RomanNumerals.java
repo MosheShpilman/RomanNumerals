@@ -16,6 +16,7 @@ public class RomanNumerals {
 				break;
 		case 5: result=five;
 				break;
+		case 6: result=five+one;
 				
 		}
 		return result;
