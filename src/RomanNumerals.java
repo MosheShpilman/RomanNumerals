@@ -3,7 +3,7 @@ public class RomanNumerals {
 	
 	String digitToString(int digit, String one, String five, String ten)
 	{
-		String result=null;
+		String result="";
 		switch (digit)
 		{
 		case 1: result=one;
