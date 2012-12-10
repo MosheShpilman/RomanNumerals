@@ -17,7 +17,12 @@ public class RomanNumerals {
 		case 5: result=five;
 				break;
 		case 6: result=five+one;
-				
+				break;
+		case 7: result=five+one+one;
+				break;
+		case 8: result=five+one+one+one;
+				break;
+		case 9: result=one+ten;
 		}
 		return result;
 	}
