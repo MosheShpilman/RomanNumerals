@@ -46,7 +46,12 @@ public class RomanNumerals {
 			switch(i)
 			{
 				case 1:
-				result = digitToString(digit,"I","V","X");
+						result = digitToString(digit,"I","V","X");
+						break;
+				case 2:
+						result = digitToString(digit, "X", "L", "C")+result;
+						break;
+					
 			}
 		}
 		return result;

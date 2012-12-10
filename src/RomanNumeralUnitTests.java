@@ -12,11 +12,11 @@ public class RomanNumeralUnitTests {
 		assertEquals("I", number.toRoman(1));
 		assertEquals("II", number.toRoman(2));
 		assertEquals("III", number.toRoman(3));
-		assertEquals("IV", number.toRoman(4));
-		assertEquals("VII", number.toRoman(7));
-		assertEquals("VIII", number.toRoman(8));
-		assertEquals("IX", number.toRoman(9));
 		assertEquals("X", number.toRoman(10));
+		assertEquals("XV", number.toRoman(15));
+		assertEquals("XX", number.toRoman(20));
+		assertEquals("LVIII", number.toRoman(58));
+		assertEquals("XCIX", number.toRoman(99));
 	}
 	
 
